@@ -1,0 +1,19 @@
+{
+  "name": "daily-newspaper-generation",
+  "version": "1.0.0",
+  "description": "日报生成-根据仓库提交信息",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshidaxian/daily-newspaper-generation.git"
+  },
+  "author": "HWG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshidaxian/daily-newspaper-generation/issues"
+  },
+  "homepage": "https://github.com/woshidaxian/daily-newspaper-generation#readme"
+}
