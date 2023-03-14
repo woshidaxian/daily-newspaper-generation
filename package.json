@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/woshidaxian/daily-newspaper-generation/issues"
   },
-  "homepage": "https://github.com/woshidaxian/daily-newspaper-generation#readme"
+  "homepage": "https://github.com/woshidaxian/daily-newspaper-generation#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "moment": "^2.29.4",
+    "nodegit": "^0.27.0"
+  }
 }
