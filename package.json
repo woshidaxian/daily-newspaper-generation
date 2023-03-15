@@ -19,6 +19,7 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "moment": "^2.29.4",
-    "nodegit": "^0.27.0"
+    "nodegit": "^0.27.0",
+    "single-line-log": "^1.1.2"
   }
 }
