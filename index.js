@@ -7,6 +7,8 @@ let timer = null
 global.singleLine = require('single-line-log').stdout
 if(CONFIG.projectList.length == 0){
   console.log(chalk.red('No project'))
+}else if(CONFIG.username.length == 0){
+  console.log(chalk.red('未配置用户名'))
 }else{
   main()
 }
