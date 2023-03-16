@@ -30,7 +30,7 @@ function writeFile(data){
       if (err) {
         console.log(chalk.red(err))
       } else {
-        console.log('日志已生成于' + OUT)
+        console.log('日报已生成于' + OUT)
       }
     })
   })
