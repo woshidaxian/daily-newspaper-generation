@@ -1,7 +1,8 @@
 const moment = require('moment');
 const fs = require('fs');
+const CONFIG = require('./../config/config');
 const chalk = require('chalk');
-const OUT = './output/' + moment().format('YYYY-MM-DD') + '.txt'
+const OUT = './output/' + moment().format('YYYY-MM-DD') + '_' + CONFIG.day + '天.txt'
 
 
 async function write(data){

@@ -12,7 +12,7 @@ async function readProject(project, callback){
     commits
       .filter(x=>{
         // 筛选出本人当天提交记录，在/config/config.js中配置username，支持多个
-        const startTime = new Date(moment().format('YYYY-MM-21 00:00:00')).getTime()
+        const startTime = new Date(moment().format('YYYY-MM-DD 00:00:00')).getTime() - (CONFIG.day-1)*24*60*60*1000
         const endTime = new Date(moment().format('YYYY-MM-DD 23:59:59')).getTime()
         let n = x.date()
         let own = CONFIG.username.indexOf(x.author().name())==-1?false:true

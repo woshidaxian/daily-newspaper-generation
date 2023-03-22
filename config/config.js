@@ -37,7 +37,12 @@ const username = [
 ]
 // 注意路径格式
 
+// 要查询的最近几天的数据（单位：天）
+const day = 1
+
+
 module.exports = {
   projectList,
-  username
+  username,
+  day
 }
