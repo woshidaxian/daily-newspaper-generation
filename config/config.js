@@ -24,6 +24,8 @@ const projectList = [
   'F://HWG//qisheng-project//wenling-screen',
   'F://HWG//qisheng-project//wenling-screen.1',
   'F://HWG//qisheng-project//wz-screen//1',
+  'F://HWG//qisheng-project//wz-screen//2',
+  'F://HWG//qisheng-project//case-distribution-screen'
   // 'F://HWG//qisheng-project//ZHDJ_api_web',
   // 'F://HWG//qisheng-project//总控2.1(主平台修改)'
 ]

@@ -5,9 +5,19 @@ const OUT = './output/' + moment().format('YYYY-MM-DD') + '.txt'
 
 
 async function write(data){
+  // 去重
+  let id = []
+  let d = []
+  for(let i = 0; i < data.length; i++){
+    if(id.indexOf(data[i].id)==-1){
+      id.push(data[i].id)
+      d.push(data[i])
+    }
+  }
+  
   let log = {}
-  await data.forEach(item=>{
-    if(log[item.ref]){
+  d.forEach(item=>{
+    if (log[item.ref]){
       log[item.ref].push(item)
     }else{
       log[item.ref] = []
