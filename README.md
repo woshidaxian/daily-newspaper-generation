@@ -11,6 +11,9 @@ const projectList = [
   '',
 ]
 const username = ['','','',''] // 在此输入要查询的commit提交人用户名
+
+const day = 1 // 查询的天数
+
 ```
 
 # npm install
